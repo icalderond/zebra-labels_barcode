@@ -1,0 +1,47 @@
+@import url("normalize.css");
+@font-face {
+  font-family: 'mrvcode39extma';
+  src:url("../../assets/fonts/mrvcode39extma.ttf")
+}  /*src:url("file:///android_asset/fonts/mrvcode39extma.ttf")*/
+
+.agencia-text{
+  font-size: 17px;
+  font-weight: bold;
+}
+.details-entrada{
+
+}
+.content{
+  clear:both;
+  float:left;
+  display: block;
+}
+.barcode-text{
+  text-align:center;
+  text-transform: uppercase;
+}
+.barcode{
+  font-family: 'mrvcode39extma',sans-serif;
+  font-size: 50px;
+}
+.detail{
+    /*overflow: hidden;*/
+    /*border: 1px solid red;*/
+    font-size: 10px;
+    line-height: 0px;
+}
+.title, .desc{
+  font-size: 11px;
+  display: inline-block;
+}
+.desc {
+    /*float: right;*/
+    text-align: left;
+    background-color: gray;
+}
+.title{
+    /*overflow: hidden;*/
+    font-weight: bold;
+    background-color: magenta;
+    width: 100px;
+}
