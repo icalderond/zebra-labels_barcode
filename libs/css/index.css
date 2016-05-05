@@ -8,9 +8,6 @@
   font-size: 17px;
   font-weight: bold;
 }
-.details-entrada{
-
-}
 .content{
   clear:both;
   float:left;
@@ -25,23 +22,20 @@
   font-size: 50px;
 }
 .detail{
-    /*overflow: hidden;*/
-    /*border: 1px solid red;*/
-    font-size: 10px;
-    line-height: 0px;
+  font-size: 10px;
+  line-height: 0px;
+  height: 10px;
 }
 .title, .desc{
   font-size: 11px;
   display: inline-block;
+  height: 10px;
+  margin-top: 0;
 }
 .desc {
-    /*float: right;*/
-    text-align: left;
-    background-color: gray;
+  text-align: left;
 }
 .title{
-    /*overflow: hidden;*/
-    font-weight: bold;
-    background-color: magenta;
-    width: 100px;
+  font-weight: bold;
+  width: 100px;
 }
